@@ -14,13 +14,13 @@
         <article class="quote">
             <div class="delete"><a href="#">x</a></div>
             Quote text
-            <div class="info">Created by <a href="#">Arjet </a>on ...</div>
+            <div class="info">Created by <a href="#">Arjet</a> on ...</div>
         </article>
         Pagination
     </section>
     <section class="edit-quote">
         <h1>Add a Quote</h1>
-        <form action="">
+        <form method="post" action="{{route('create')}}">
             <div class="input-group">
                 <label for="">Your Name</label>
                 <input type="text" name="author" id="author" placeholder="Your name">
