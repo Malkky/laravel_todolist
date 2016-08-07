@@ -7,6 +7,6 @@ use Illuminate\Database\Eloquent\Model;
 class Quote extends Model
 {
     public function author(){
-        $this->belongsTo('App\Author');
+        return $this->belongsTo('App\Author');
     }
 }
